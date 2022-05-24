@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kafka-manager
+  namespace: kafka-ca1
+spec:
+  selector:
+    app: kafka-manager
+  type: NodePort
+  ports:
+  - port: 9000
+    protocol: TCP
+    targetPort: 9000
