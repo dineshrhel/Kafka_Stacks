@@ -1,3 +1,10 @@
+#### To clone this Kafka-manifest files #### 
+
+git clone https://github.com/dineshrhel/Kafka_Stacks.git /opt/
+
+cd /opt/Kafka_Stacks
+
+
 
 #### To Install kubens command by ROOT#### 
 
