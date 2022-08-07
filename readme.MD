@@ -30,7 +30,7 @@ kubectl get pods
 
 
 
-#### Login into Kafka Client ####
+#### Login into Kafka Client #####
 
 kubectl exec -it kafka-connect -- /bin/bash
 
