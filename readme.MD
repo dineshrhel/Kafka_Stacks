@@ -1,4 +1,4 @@
-#### Login into Kakfa Client ####
+#### Login into Kafka Client ####
 
 kubectl exec -it kafka-connect -- /bin/bash
 
